@@ -1,0 +1,202 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+}
+.margen{
+  padding: 15px 20px;
+}
+.centrar{
+  text-align: center;
+  margin: auto;
+}
+.menu{
+  border-bottom: 3px #cecece solid;
+}
+.botones_menu{
+  width: 65%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.botones_menu img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.botones_menu a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.descarga_menu{
+  width: 34%;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+.descarga_menu a{
+  text-decoration: none;
+  color: blue;
+  border-radius: 5px;
+  border: 1px blue solid;
+  padding: 2px 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.info_firefox{
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+h2{
+  font-size: 42px;
+  line-height: 48px;
+  padding: 15px 0;
+}
+.info_firefox p{
+  padding: 15px 0;
+  margin-bottom: 25px;
+}
+.info_firefox img{
+  width: 100px;
+  height: 40px;
+  margin: 10px 0;
+}
+.img_firefox{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+.img_firefox img{
+  width: 100%;
+}
+.btn_azul{
+  text-decoration: none;
+  border: none;
+  background-color: #0000FF;
+  border-radius: 7px;
+  color: white;
+  padding: 12px 25px;
+  margin: 15px 0;
+}
+.aviso{
+  color: gray;
+  font-size: 12px;
+}
+.dinosaurio{
+  background-color: #f9f9fb;
+  padding: 25px 250px;
+}
+.img_dinosaurio{
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.img_dinosaurio img{
+  width: 100%;
+} 
+.info_dinosaurio{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.nuestra_info{
+  padding: 10px 20px;
+}
+.impacto{
+  padding: 30px 0;
+  padding-right: 20px;
+  margin: 20px;
+  text-align: left;
+  border-right: 2px #cecece solid;
+  width: 46%;
+  display: inline-block;
+  vertical-align: top;
+}
+.innovaciones{
+  padding: 30px 0;
+  margin: 20px;
+  text-align: left;
+  width: 46%;
+  display: inline-block;
+  vertical-align: top;
+}
+.negritas{
+  font-weight: bold;
+}
+.tarjeta{
+  width: 32%;
+  padding: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tarjeta img{
+  width: 100px;
+  padding-bottom: 30px;
+}
+.tarjeta h3{
+  font-size: 24px;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.newsletter{
+  margin-top: 50px;
+}
+.img_newsletter{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.img_newsletter img{
+  text-align: center;
+}
+.info_newsletter{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.info_newsletter h2{
+  font-size: 50px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.info_newsletter input{
+  background-color: #F9F9FB;
+  border: #d7d7d7 1px solid;
+  border-radius: 10px;
+  height: 50px;
+  width: 500px;
+}
+.info_newsletter button{
+  background-color: #333;
+  color: white;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+.info_newsletter span{
+  padding-left: 50px;
+}
+.final{
+  background-color: black;
+  height: 100px;
+  padding: 30px;
+}
